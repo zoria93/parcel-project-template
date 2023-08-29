@@ -1,12 +1,16 @@
-function order(words) {
-  const data = words.split('').join('');
+function isPrime(num) {
+  if (num % 2 !== 0 && num % 3 !== 0) {
+    const box = true;
+    console.log(box, `${num} is  prime`);
+  }
+  if (num % 2 === 0 || num % 3 === 0) {
+    const box = false;
+    console.log(box, `${num} is not prime`);
+  }
 
-  console.log(data);
-
-  for (const dat of data) {
-    const dodo = Number.isNaN(dat);
-    console.log(dodo);
+  if (num === 2 && 2 / 1) {
+    const box = true;
+    console.log(box, `${num} is  prime`);
   }
 }
-
-order('is2 Thi1s T4est 3a');
+isPrime(25);
